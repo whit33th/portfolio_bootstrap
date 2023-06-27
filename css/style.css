@@ -1,0 +1,328 @@
+.socialicons {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: 0.3s;
+}
+
+.socialicons:hover {
+    filter: invert(100%);
+    transition: 0.3s;
+}
+
+.carousel-control-prev {
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-control-next {
+    background-color: transparent;
+    border: none;
+}
+
+.figma-icon {
+    width: 1em;
+}
+
+.art-icon {
+    width: 1.1em;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+
+}
+
+.proj {
+    transition: 0.3s;
+
+}
+
+.card {
+    max-height: 507px;
+}
+
+.proj:hover {
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+.dark-word {
+    background-color: black;
+    color: white;
+}
+
+#home {
+    background: linear-gradient(136deg, rgb(68, 132, 206), rgb(26, 215, 192), rgb(255, 155, 17), rgb(155, 89, 182), rgb(255, 127, 127), rgb(253, 72, 90)) 0% 0% / 1200% 1200%;
+    animation: backgroundAnimation 20s ease-in-out infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.navbar.scrolled {
+    background-color: rgb(244 244 244 / 91%);
+
+
+    transition: 0.7s;
+}
+
+.navbar {
+    transition: 0.3s;
+}
+
+.swap-tab {
+    width: 100%;
+}
+
+.swap-tab[aria-selected="false"] {
+    background-color: rgb(245, 245, 245);
+
+}
+
+.swap-tab[aria-selected="true"] {
+    background: linear-gradient(136deg, rgb(233, 238, 255), rgb(235, 255, 222), rgb(216, 255, 245)) 0% 0% / 1200% 1200%;
+    animation: backgroundAnimation 10s ease-in-out infinite;
+
+
+
+}
+
+
+.progress-bar {
+    background: linear-gradient(136deg, rgb(68, 206, 158), rgb(220, 200, 214), rgb(112, 255, 205), rgb(255, 167, 232), rgb(160, 255, 119)) 0% 0% / 1200% 1200%;
+    animation: backgroundAnimation 10s ease-in-out infinite;
+    border-radius: 10px;
+
+}
+
+.progress {
+    background: linear-gradient(136deg, rgb(255, 255, 221), rgb(255, 231, 247), rgb(228, 255, 246)) 0% 0% / 1200% 1200%;
+    animation: backgroundAnimation 6s ease-in-out infinite;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+
+.halloween {
+    background-image: url(https://images-cdn.exchange.art/ag6rGDeG_foAYhZ3dQtHchhEfxzideob2ttwTQQq6Sg?ext=fastly&optimize=medium);
+    background-size: cover;
+
+}
+
+.red {
+    background-image: url(https://i.pinimg.com/originals/f8/3d/92/f83d92d620ed6905013e02218a353255.jpg);
+    background-size: cover;
+}
+
+.elden {
+    background-image: url(https://ipfs.pixura.io/ipfs/QmXfumCdZwBKskNYTt7NEDgAHB5EByAhuyuYPMRbPPibdX/_Noto_Ishikawa2000x2000.gif);
+    background-size: cover;
+}
+
+.myportfolio {
+    background-position: 0px 70px;
+    background-image: url(https://img.freepik.com/free-vector/sketch-monochrome-business-concept_1284-36646.jpg?w=826&t=st=1686844896~exp=1686845496~hmac=0361c654e992d2092a84e1d27dcd5e68d6c26662b89240c660faba30b7c65f12);
+    background-size: contain;
+}
+
+.elden h5,
+.elden p,
+.elden span,
+.red h5,
+.red p,
+.red span,
+.halloween h5,
+.halloween span,
+.label {
+    color: white;
+}
+
+.btn-link {
+    background-color: transparent;
+    border: 2px solid #383838;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(41, 41, 41);
+}
+
+.btn-link-wh {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.nav-tabs .nav-link.active {
+    border: 0px solid white;
+}
+
+
+.input-group-text {
+    background-color: #0504028a;
+    color: white;
+}
+
+.calculation label {
+    color: white;
+    background-color: #68686852;
+}
+
+
+
+
+
+#projects {
+    background-image: url(https://wallpaperaccess.com/full/8351161.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#skills {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.calculation {
+    background-image: url(https://i.pinimg.com/originals/da/e3/6a/dae36a74337de05e249ce5afcec907c1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+
+}
+
+#contact-form {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.modal {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+#contact-form.active {
+    filter: blur(20px);
+    transition: 1s;
+}
+
+#popup {
+    display: none;
+    margin-bottom: 50px;
+    position: relative;
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .10);
+    background-color: white;
+    
+    opacity: 0;
+    transition: 0.5s;
+    
+
+}
+
+#popup.active {
+    display: grid;
+    opacity: 1;
+    transition: 0.5s;
+    
+}
+
+#wynik {
+
+
+    transition: 0.5s;
+    border: 0px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+#wynik.active {
+
+    border: 1px solid white;
+    padding: 10px;
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+    font-size: large;
+}
+
+.btn-contact-form{
+    width: 100%;
+}
+#RulePerm {
+    border-radius: 10px;
+    
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .10);
+    background-color: white;
+    z-index: 999;
+    opacity: 1;
+}
+#RulePerm.active {
+    top: 30%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s;
+    
+}
+#blur {
+    
+    filter: blur(20px);
+ }
+#blur.active {
+    transition: 1s;
+    filter: none;
+}
+
+
+.flex-start {
+    font-size: large;
+  
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
