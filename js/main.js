@@ -1,5 +1,5 @@
 const phraseElement = document.querySelector(".load-phrase");
-const phrase = "Where technology and imagination intertwine, the possibilities know no bounds.";
+const phrase = "Looking for new opportunities: dkaminskyi@edu.cdv.pl";
 let index = 0;
 
 function typePhrase() {
@@ -90,22 +90,22 @@ function add(){
     popup.classList.add('active');
 }
 
-var privacyCheckbox = document.getElementById("Privacy-and-security");
-var lawfulUsageCheckbox = document.getElementById("Lawful-Usage");
-var intellectualPropertyCheckbox = document.getElementById("Intellectual-Property");
+// var privacyCheckbox = document.getElementById("Privacy-and-security");
+// var lawfulUsageCheckbox = document.getElementById("Lawful-Usage");
+// var intellectualPropertyCheckbox = document.getElementById("Intellectual-Property");
 
-function checkAndExecute() {
-  if (privacyCheckbox.checked && lawfulUsageCheckbox.checked && intellectualPropertyCheckbox.checked) {
-    // Если все флажки нажаты, выполнить необходимые действия
-    var popup = document.getElementById('blur');
-    popup.classList.toggle('active');
-    var RulePerm = document.getElementById('RulePerm');
-    RulePerm.classList.add('active');
-  } else {
-    // Если какой-либо флажок не нажат, вывести сообщение об ошибке
-    alert("Please accept all the rules.");
-  }
-}
+// function checkAndExecute() {
+//   if (privacyCheckbox.checked && lawfulUsageCheckbox.checked && intellectualPropertyCheckbox.checked) {
+//     // Если все флажки нажаты, выполнить необходимые действия
+//     var popup = document.getElementById('blur');
+//     popup.classList.toggle('active');
+//     var RulePerm = document.getElementById('RulePerm');
+//     RulePerm.classList.add('active');
+//   } else {
+//     // Если какой-либо флажок не нажат, вывести сообщение об ошибке
+//     alert("Please accept all the rules.");
+//   }
+// }
 
   
 

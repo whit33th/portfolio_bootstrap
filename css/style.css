@@ -306,14 +306,14 @@
     transition: 0.7s;
     
 }
-#blur {
+/* #blur {
     
     filter: blur(20px);
  }
 #blur.active {
     transition: 1s;
     filter: none;
-}
+} */
 
 
 .flex-start {
@@ -324,5 +324,4 @@
 input[type="checkbox"] {
     width: 16px;
     height: 16px;
-}
-
+} 
