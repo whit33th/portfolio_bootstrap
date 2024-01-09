@@ -19,13 +19,18 @@
     background-color: transparent;
     border: none;
 }
-
+.link-tlo {
+    padding: 5px 0;
+    border-radius: 10px;
+    background-color: #ffffffd6;
+}
 .figma-icon {
     width: 1em;
 }
 
 .art-icon {
     width: 1.1em;
+
 }
 
 ::-webkit-scrollbar {
@@ -43,7 +48,10 @@
 }
 
 .card {
-    max-height: 507px;
+    height: 610px;
+}
+.margin5t {
+    margin: 5px 0;
 }
 
 .proj:hover {

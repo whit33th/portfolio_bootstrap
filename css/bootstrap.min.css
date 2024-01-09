@@ -3513,14 +3513,17 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-secondary {
-    color: #6c757d;
-    border-color: #6c757d
+    color: #333333;
+    border-color: #393939;
+    transition: 0.3s;
 }
 
 .btn-outline-secondary:hover {
     color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d
+    background-color: #151515;
+    border-color: #6c757d;
+    opacity: 0.9;
+    transition: 0.3s;
 }
 
 .btn-check:focus+.btn-outline-secondary,
