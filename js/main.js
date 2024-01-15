@@ -1,5 +1,5 @@
 const phraseElement = document.querySelector(".load-phrase");
-const phrase = "Looking for new opportunities: dkaminskyi@edu.cdv.pl";
+const phrase = "Looking for new opportunities: deniil019@gmail.com";
 let index = 0;
 
 function typePhrase() {
