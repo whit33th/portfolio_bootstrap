@@ -27,7 +27,11 @@
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
     border: 1px solid #d1d1d1;
 }
-
+.card-text{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
 .figma-icon {
     width: 1em;
 }
@@ -224,7 +228,6 @@
 }
 
 #skills {
-    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -242,7 +245,6 @@
 }
 
 #contact-form {
-    background-image: url();
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
